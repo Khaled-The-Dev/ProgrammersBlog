@@ -8,6 +8,5 @@ let { data, error } = await Supabase
 .from('Posts')
 .select('*')
 
-
 // exporting the data ( array )
 export default data

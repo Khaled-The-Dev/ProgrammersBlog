@@ -5,3 +5,8 @@ import { Config } from './Config.js'
 
 
 export const Supabase = supabase.createClient(Config.Urls.Supabase, Config.Keys.Supabase)
+
+
+// Selecting a few elements and exporting them
+
+export const SignInButton = document.getElementById('SignInButton')
